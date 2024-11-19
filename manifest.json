@@ -1,0 +1,13 @@
+library(ggplot2)
+library(dplyr)
+library(ggplot2)
+library(dplyr)
+# Custom dataset 1
+data <- data.frame(
+Name = c("Alice", "Bob", "Charlie", "David", "Eve"),
+Age = c(25, 30, 22, 28, 24),
+City = c("New York", "London", "Paris", "Tokyo", "Sydney"),
+Salary = c(60000, 75000, 55000, 80000, 65000)
+)
+rsconnect::writeManifest()
+savehistory("~/R/practice_repo_chand/manifest.json")
